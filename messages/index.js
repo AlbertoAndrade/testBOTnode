@@ -2,6 +2,7 @@
 This template demonstrates how to use Waterfalls to collect input from a user using a sequence of steps.
 For a complete walkthrough of creating this type of bot see the article at
 https://docs.botframework.com/en-us/node/builder/chat/dialogs/#waterfall
+AA branch01
 -----------------------------------------------------------------------------*/
 "use strict";
 var builder = require("botbuilder");
@@ -20,7 +21,7 @@ var bot = new builder.UniversalBot(connector);
 
 bot.dialog('/', [
     function (session) {
-        builder.Prompts.text(session, "BBHello... What's your name?");
+        builder.Prompts.text(session, "CCHello... What's your name?");
     },
     function (session, results) {
         session.userData.name = results.response;
