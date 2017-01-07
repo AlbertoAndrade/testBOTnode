@@ -21,12 +21,12 @@ var bot = new builder.UniversalBot(connector);
 
 bot.dialog('/', [
     function (session) {
-        builder.Prompts.text(session, "fffHello... What's your name?");
+        builder.Prompts.text(session, "Cual es tu nombre?");
     },
     function (session, results) {
         session.userData.name = results.response;
 
-        builder.Prompts.number(session, "Hi " + results.response + ", AAHow many years have you been coding?"); 
+        builder.Prompts.number(session, "Hi " + results.response + ", Cuantos anios programando?");
     },
     function (session, results) {
         session.userData.coding = results.response;
