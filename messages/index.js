@@ -21,22 +21,26 @@ var bot = new builder.UniversalBot(connector);
 
 bot.dialog('/', [
     function (session) {
-        builder.Prompts.text(session, "Cual es tu nombre?");
+        builder.Prompts.text(session, "Ingresa el # del Dispensador?");
     },
     function (session, results) {
-        session.userData.name = results.response;
+        session.userData.dispensador = results.response;
+        builder.Prompts.choice(session, "Seleciona la frase correcta",
+            ["Cuando estoy entre locos, me hago el loco",
+                "Nunca se mesclan el agua y el fuego"
+                , "La belleza sin gracias es como anzuelo sin cebo",
+                "Algunos gallos creen que el sol sale para ellos"]);
+    },
+    function (session, results) {
+        session.userData.frase = results.response;
+        builder.Prompts.choice(session, "Seleciona la cantidad",
+            ["10", "20", "30", "50"]);
+    },
 
-        builder.Prompts.number(session, "Hi " + results.response + ", Cuantos anios programando?");
-    },
+
     function (session, results) {
-        session.userData.coding = results.response;
-        builder.Prompts.choice(session, "AAWhat language do you code Node using?", ["JavaScript", "CoffeeScript", "TypeScript"]);
-    },
-    function (session, results) {
-        session.userData.language = results.response.entity;
-        session.send("Got it... " + session.userData.name + 
-                    " you've been programming for " + session.userData.coding + 
-                    " years and use " + session.userData.language + ".");
+        session.userData.cantidad = results.response.entity;
+        session.send("Retiro de " + session.userData.cantidad);
     }
 ]);
 
