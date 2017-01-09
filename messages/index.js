@@ -26,7 +26,7 @@ bot.dialog('/', [
     function (session, results) {
         session.userData.dispensador = results.response;
         builder.Prompts.choice(session, "Seleciona la frase correcta",
-            ["Cuando estoy entre locas, me hago el loco",
+            ["Cuando estoy entre locos, me hago el loco",
                 "Nunca se mesclan el agua y el fuego"
                 , "La belleza sin gracias es como anzuelo sin cebo",
                 "Algunos gallos creen que el sol sale para ellos"]);
