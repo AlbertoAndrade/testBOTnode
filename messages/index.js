@@ -27,7 +27,7 @@ bot.dialog('/', [
         session.userData.dispensador = results.response;
         builder.Prompts.choice(session, "Seleciona la frase correcta",
             ["Cuando estoy entre locos, me hago el loco",
-                "Nunca se mesclan el agua y el fuego"
+                "Nunca se mesclan el agua y el aceite fuego"
                 , "La belleza sin gracias es como anzuelo sin cebo",
                 "Algunos gallos creen que el sol sale para ellos"]);
     },
