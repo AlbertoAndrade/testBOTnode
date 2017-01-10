@@ -23,8 +23,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/messages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="301">
+              <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -56,8 +56,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1385" />
-    <option name="y" value="86" />
+    <option name="x" value="225" />
+    <option name="y" value="77" />
     <option name="width" value="1149" />
     <option name="height" value="1000" />
   </component>
@@ -181,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483724761122</updated>
-      <workItem from="1483724762517" duration="9089000" />
+      <workItem from="1483724762517" duration="11786000" />
     </task>
     <task id="LOCAL-00001" summary="Espaniol&#10;&#10;Cambio a dispensar&#10;">
       <created>1483827484538</created>
@@ -190,14 +190,35 @@
       <option name="project" value="LOCAL" />
       <updated>1483827484538</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branch 'branch02' of https://github.com/AlbertoAndrade/testBOTnode into branch02&#10;&#10;# Conflicts:&#10;#&#9;messages/index.js&#10;">
+      <created>1483992786552</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483992786552</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge branch 'branch02' of https://github.com/AlbertoAndrade/testBOTnode into branch02&#10;&#10;# Conflicts:&#10;#&#9;messages/index.js&#10;">
+      <created>1483994085278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483994085278</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'branch02' of https://github.com/AlbertoAndrade/testBOTnode into branch02&#10;&#10;# Conflicts:&#10;#&#9;messages/index.js&#10;">
+      <created>1484014216886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484014216886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9089000" />
+    <option name="totallyTimeSpent" value="11786000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1385" y="86" width="1149" height="1000" extended-state="0" />
+    <frame x="225" y="77" width="1149" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24977934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -238,8 +259,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/messages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="301">
+          <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
