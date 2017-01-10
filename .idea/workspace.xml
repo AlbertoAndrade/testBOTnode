@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac3ddfd3-1756-419e-9579-33c2300ef6df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messages/index.js" afterPath="$PROJECT_DIR$/messages/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -182,7 +181,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483724761122</updated>
-      <workItem from="1483724762517" duration="11741000" />
+      <workItem from="1483724762517" duration="11786000" />
     </task>
     <task id="LOCAL-00001" summary="Espaniol&#10;&#10;Cambio a dispensar&#10;">
       <created>1483827484538</created>
@@ -205,11 +204,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483994085278</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'branch02' of https://github.com/AlbertoAndrade/testBOTnode into branch02&#10;&#10;# Conflicts:&#10;#&#9;messages/index.js&#10;">
+      <created>1484014216886</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484014216886</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11741000" />
+    <option name="totallyTimeSpent" value="11786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="225" y="77" width="1149" height="1000" extended-state="0" />
