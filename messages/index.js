@@ -2,7 +2,7 @@
 This template demonstrates how to use Waterfalls to collect input from a user using a sequence of steps.
 For a complete walkthrough of creating this type of bot see the article at
 https://docs.botframework.com/en-us/node/builder/chat/dialogs/#waterfall
-AA branch02fff
+ AA branch02fff   xxxx
 -----------------------------------------------------------------------------*/
 "use strict";
 var builder = require("botbuilder");
@@ -27,7 +27,7 @@ bot.dialog('/', [
         session.userData.dispensador = results.response;
         builder.Prompts.choice(session, "Seleciona la frase correcta",
             ["Cuando estoy entre locos, me hago el loco",
-                "Nunca se mesclan el agua y el aceite fuego"
+                "Nunca se mesclan el agua y el fuego"
                 , "La belleza sin gracias es como anzuelo sin cebo",
                 "Algunos gallos creen que el sol sale para ellos"]);
     },
