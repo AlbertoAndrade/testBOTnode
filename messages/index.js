@@ -2,7 +2,7 @@
 This template demonstrates how to use Waterfalls to collect input from a user using a sequence of steps.
 For a complete walkthrough of creating this type of bot see the article at
 https://docs.botframework.com/en-us/node/builder/chat/dialogs/#waterfall
-AA branch01
+ AA branch02fff   xxxx
 -----------------------------------------------------------------------------*/
 "use strict";
 var builder = require("botbuilder");
@@ -21,21 +21,26 @@ var bot = new builder.UniversalBot(connector);
 
 bot.dialog('/', [
     function (session) {
-        builder.Prompts.text(session, "CCHello... What's your name?");
+        builder.Prompts.text(session, "Ingresa el # del Dispensador?");
     },
     function (session, results) {
-        session.userData.name = results.response;
-        builder.Prompts.number(session, "Hi " + results.response + ", AAHow many years have you been coding?"); 
+        session.userData.dispensador = results.response;
+        builder.Prompts.choice(session, "Seleciona la frase correcta",
+            ["Cuando estoy entre locos, me hago el loco",
+                "Nunca se mesclan el agua y el fuego"
+                , "La belleza sin gracias es como anzuelo sin cebo",
+                "Algunos gallos creen que el sol sale para ellos"]);
     },
     function (session, results) {
-        session.userData.coding = results.response;
-        builder.Prompts.choice(session, "AAWhat language do you code Node using?", ["JavaScript", "CoffeeScript", "TypeScript"]);
+        session.userData.frase = results.response;
+        builder.Prompts.choice(session, "Seleciona la cantidad",
+            ["10", "20", "30", "50"]);
     },
+
+
     function (session, results) {
-        session.userData.language = results.response.entity;
-        session.send("Got it... " + session.userData.name + 
-                    " you've been programming for " + session.userData.coding + 
-                    " years and use " + session.userData.language + ".");
+        session.userData.cantidad = results.response.entity;
+        session.send("Retiro de " + session.userData.cantidad);
     }
 ]);
 
